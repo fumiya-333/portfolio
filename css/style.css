@@ -86,19 +86,19 @@ h2.center span {
 }
 
 .fade-img .fade-img-01 {
-  background: transparent url(./../img/mv/23611337_s.jpeg) no-repeat top center / cover;
+  background: transparent url(./../img/mv/swiper1.jpeg) no-repeat center center;
 }
 .fade-img .fade-img-02 {
-  background: transparent url(./../img/mv/3726078_s.jpeg) no-repeat top center / cover;
+  background: transparent url(./../img/mv/swiper2.png) no-repeat center center;
 }
 .fade-img .fade-img-03 {
-  background: transparent url(./../img/mv/4004857_s.jpeg) no-repeat top center / cover;
+  background: transparent url(./../img/mv/swiper3.jpeg) no-repeat top center / cover;
 }
 .fade-img .fade-img-04 {
-  background: transparent url(./../img/mv/23643297_s.jpeg) no-repeat top center / cover;
+  background: transparent url(./../img/mv/swiper4.jpeg) no-repeat top center / cover;
 }
 .fade-img .fade-img-05 {
-  background: transparent url(./../img/mv/3851677_s.jpeg) no-repeat top center / cover;
+  background: transparent url(./../img/mv/swiper5.jpeg) no-repeat top center / cover;
 }
 .fade-img .fade-img-06 {
   background: transparent url(./../img/mv/23544213_s.jpeg) no-repeat top center / cover;
@@ -220,12 +220,6 @@ h2.center span {
     font-size: 1.2rem;
     right: 2%;
   }
-}
-
-.top-wrapper .top-text:after {
-  border-top: 1px solid;
-  content: "";
-  width: 5em;
 }
 
 @media screen and (max-width: 750px) {
@@ -645,6 +639,11 @@ footer .copy-right {
 
 .pc-only {
   display: block;
+}
+
+.pc-only img {
+  width: 600px;
+  height: calc(600px * 0.75);
 }
 
 @media screen and (max-width: 750px) {
